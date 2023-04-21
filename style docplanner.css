@@ -1,0 +1,467 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #747474;
+}
+
+.header.menu{
+  display: inline-block;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+    justify-content:space-between;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: grey;
+     
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: grey;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:white;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(158, 23, 23, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+a {
+    color:#262525;
+    text-decoration: none;
+}
+
+.active{
+    color: #5dc6b0 ;
+}
+.docplanner-header{
+  display: flex;
+  justify-content: space-between;
+  padding:  10px;
+}
+
+.introdauction {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin: 20px 0;
+}
+.introduction-logo {
+width: 50px;
+height: 50px;
+}
+.intintroduction-title{
+    color: #5dc6b0;
+}
+.introdauction-text{
+    display: flex;
+}
+.introduction-paragraph{
+    margin: 10px;
+    color: #747474 ;
+}
+.services{
+  display: flex;
+  color: white;
+  
+}
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+.style-select1{
+  background-color: #00ccb1 ;
+}
+
+.offices__header {
+  max-width: 460px;
+  margin: 0 auto 4.1875rem;
+  font-size: .875em;
+  text-align: center;
+}
+.titre__offices{
+  color: #00b39b;
+}
+.paragraph__offices{
+  margin: 1.6em 0;
+  color: #747474;
+}
+
+.select1{
+  background-color: #00ccb1 ;
+
+}
+.service-card-patients {
+  background-color:#00ccb1 ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.service-card-doctors {
+  background-color:#3d83df ;
+    padding: 20px; 
+    margin: 10px;  
+    border-radius: 8px;
+}
+.service-card-clinics{
+  background-color: #1b2734;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.office__desc {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  padding: 1.1111111111em;
+}
+figure {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0;
+  transition: all .2s ease 0s;
+}
+.office__inner {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.03);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 311px;
+  z-index: 2;
+  position: relative;
+  display: block;
+  color: #747474;
+}
+.Towns{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap: 20px;
+ }
+#jpg{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {background-color: #2196F3;} 
+.info:hover {background: #0b7dda;}
+.end_of_page{max-width: 460px;
+  margin: 0 auto 4.1875rem;
+  font-size: .875em;
+  text-align: center;
+}
+#company-brands {
+  flex-direction: row;
+  justify-content: center;
+}
+#company-slogan {
+  width: 16%;
+  margin-left: 15%;
+}
+.slogan-text {
+  margin-top: 15px;
+  color: #00b39b;
+  font-size: 1.625em;
+  font-weight: 500;
+}
+.brand-logo {
+  list-style: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.brand-logo li {
+  font-size: 16px;
+  display: inline-block;
+  width: 168px;
+  padding-right: 5px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.brand-logo {
+    list-style: none;
+}
+
+/**********1st section*****/
+.statis-section {
+  background-color: #e5faf8;
+  height: 600px;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.doc-logo {
+
+    width: 40px;
+    height: 40px;
+
+
+}
+.box img {
+  margin-top: 13%;
+  width: 40px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.box {
+  background-color: #fff;
+  width: 228px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 31px;
+  text-align: center;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.slogan-text {
+  margin-top: 15px;
+  color: #00b39b;
+  font-size: 1.625em;
+  font-weight: 500;
+}
+.statis-desc {
+  font-size: .875em;
+  font-weight: 400;
+  /* line-height: 1.72; */
+  padding: 13px 129px;
+}
+.land-desc {
+  padding: 0%;
+  font-size: 13px;
+}
+#statis-slogan {
+  font-size: 2.2em;
+}
+.slogan-text {
+    margin-top: 15px;
+    color: #00b39b;
+    font-size: 1.625em;
+    font-weight: 500;
+}
+#upstat-div {
+  margin-top: 50px;
+  width: 50%;
+  align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    overflow: hidden;
+}
+
+.description-container {
+    width: 478px;
+    height: 112px;
+    line-height: 1.75;
+    margin: 25px;
+    white-space: normal;
+}
+
+.patient-div {
+    width: 478px;
+    height: 391px;
+    max-width: 478px;
+    max-height: 391px;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    white-space: normal;
+    overflow: hidden;
+
+
+}
+
+.division-title {
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+.rd-title {
+  font-size: 20px;
+}
+
+.division-desc {
+    color: #fff;
+    font-size: 27px;
+    padding-left: 30px;
+
+}
+
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+
+.scmrktplace-img {
+    width: 100%;
+    margin-left: 47%;
+    margin-top: -2.3em;
+}
+
+.scmrktplace-img img {
+    max-width: 350px;
+
+}
+
+#doctor-div {
+    background-color: #3d83df;
+    margin-left: 25px;
+
+
+}
+
+#service-div,
+#desc-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doctor-desc {
+    margin-bottom: 75px;
+}
+
+#company-slogan {
+    width: 16%;
+    margin-left: 15%;
+
+}
+
+
+
+.brand-logo li {
+    font-size: 16px;
+    display: inline-block;
+    width: 168px;
+    padding-right: 5px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b39b;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+/**********1st section fin*****/
+footer {
+  height: 75px;
+  width: 100%;
+  border-top: 1px solid grey;
+  font-size: .75em;
+  color: #ababab;
+  text-align: center;
+  line-height: 2.2;
+}
